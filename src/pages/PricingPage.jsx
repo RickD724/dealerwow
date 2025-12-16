@@ -25,7 +25,7 @@ const PricingPage = () => {
             Get time-based access to unlock any deal on the marketplace
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto pt-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto pt-8">
             {/* 3-Day Access */}
             <div className="card p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
@@ -64,7 +64,7 @@ const PricingPage = () => {
             </div>
 
             {/* 7-Day Access - Most Popular */}
-            <div className="card p-8 border-2 border-primary-600 relative mt-6">
+            <div className="card p-8 border-2 border-primary-600 relative mt-8">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
                 <span className="bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold whitespace-nowrap">
                   Most Popular
@@ -172,7 +172,7 @@ const PricingPage = () => {
             Get access to serious, paid buyers
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto pt-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto pt-8">
             {/* Free Tier */}
             <div className="card p-8">
               <div className="flex items-center justify-center mb-4">
@@ -215,7 +215,7 @@ const PricingPage = () => {
             </div>
 
             {/* Pro Tier - Recommended */}
-            <div className="card p-8 border-2 border-primary-600 relative mt-6">
+            <div className="card p-8 border-2 border-primary-600 relative mt-8">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
                 <span className="bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold whitespace-nowrap">
                   Recommended
