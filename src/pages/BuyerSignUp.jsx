@@ -59,7 +59,7 @@ const BuyerSignUp = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-accent-600 mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700">Pay per unlock or monthly subscription</span>
+                <span className="text-gray-700">Purchase an access pass to unlock any deal during your active window</span>
               </li>
             </ul>
           </div>

@@ -76,16 +76,16 @@ const DealerDashboard = () => {
             Add New Listing
           </Link>
           
-          {/* Subtle Cancel Membership */}
+          {/* Subtle Cancel Subscription */}
           <button 
             onClick={() => {
-              if (window.confirm('Are you sure you want to cancel your membership? You will lose access to all listings and features.')) {
-                alert('Membership cancellation requested. In production, this would process the cancellation.');
+              if (window.confirm('Are you sure you want to cancel your subscription? You will lose access to all listings and features.')) {
+                alert('Subscription cancellation requested. In production, this would process the cancellation.');
               }
             }}
             className="text-sm text-gray-500 hover:text-red-600 underline"
           >
-            Cancel Membership
+            Cancel Subscription
           </button>
         </div>
 
