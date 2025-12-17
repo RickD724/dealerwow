@@ -108,6 +108,13 @@ const Header = () => {
                   Dealer Login
                 </Link>
                 <Link 
+                  to="/buyer/dashboard" 
+                  className="block text-gray-700 hover:text-primary-600 font-medium"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Buyer Login
+                </Link>
+                <Link 
                   to="/buyer/signup" 
                   className="block btn-primary text-center"
                   onClick={() => setMobileMenuOpen(false)}
